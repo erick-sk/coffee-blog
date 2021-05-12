@@ -201,3 +201,12 @@ img {
 	background-color: var(--black);
 	padding-bottom: 3rem;
 }
+
+/* ABOUT US */
+@media (min-width: 768px) {
+	.about-us {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 2rem;
+	}
+}
