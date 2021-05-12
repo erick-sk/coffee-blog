@@ -2,138 +2,163 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Coffee Blog</title>
-
-		<!-- normalize -->
+		<title>BlogDeCafé</title>
 		<link rel="stylesheet" href="css/normalize.css" />
-
-		<!-- fonts -->
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
-
-		<!-- css -->
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
 		<header class="header">
-			<div class="container">
-				<div class="bar">
-					<a href="" class="logo">
-						<h1 class="logo__name no-margin text-center">
-							Coffee <span>Blog</span>
+			<div class="contenedor">
+				<div class="barra">
+					<a class="logo" href="index.html">
+						<h1 class="logo__nombre no-margin centrar-texto">
+							Blog<span class="logo__bold">DeCafé</span>
 						</h1>
 					</a>
 
-					<nav class="nav">
-						<a class="nav__link" href="aboutus.html">About us</a
-						><a class="nav__link" href="courses.html">Courses</a
-						><a class="nav__link" href="contact.html">Contact</a>
+					<nav class="navegacion">
+						<a href="nosotros.html" class="navegacion__enlace"
+							>Nosotros</a
+						>
+						<a href="cursos.html" class="navegacion__enlace"
+							>Cursos</a
+						>
+						<a href="contacto.html" class="navegacion__enlace"
+							>Contacto</a
+						>
 					</nav>
 				</div>
 			</div>
-			<div class="header__text">
-				<h2 class="no-margin">Coffee Block with tips and tricks</h2>
+
+			<div class="header__texto">
+				<h2 class="no-margin">Blog de café con consejos y cursos</h2>
 				<p class="no-margin">
-					Learn with experts the best recipes and tips
+					Aprende de los expertos con las mejores recetas y consejos
 				</p>
 			</div>
 		</header>
 
-		<main class="container">
-			<h3 class="text-center">Our prox Courses and Workshops</h3>
+		<main class="contenedor">
+			<h3 class="centrar-texto">Nuestros Próximos Cursos y Talleres</h3>
 
-			<div class="course">
-				<div class="course__image">
-					<img src="img/curso1.jpg" alt="Course image" />
+			<div class="curso">
+				<div class="curso__imagen">
+					<img src="img/curso1.jpg" alt="Imagen del curso" />
 				</div>
-
-				<div class="course__information">
-					<h4 class="no-margin">Technicals of coffee extraction</h4>
-					<p class="course__label">
-						Price:
-						<span class="course__info">Free</span>
+				<div class="curso__informacion">
+					<h4 class="no-margin">Técnicas de extracción de café</h4>
+					<p class="curso__label">
+						Precio:
+						<span class="curso__info">Gratis</span>
 					</p>
-					<p class="course__label">
-						Tickets:
-						<span class="course__info">20</span>
+					<p class="curso__label">
+						Cupo:
+						<span class="curso__info">20</span>
 					</p>
-					<p class="course__description">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Qui et mollitia minima! Optio nobis dicta, voluptatem
-						in, harum unde illo necessitatibus quam culpa maxime
-						nisi cum iste quibusdam quod error.
+					<p class="curso__descripcion">
+						Donec tempor, nisl et rhoncus viverra, turpis enim
+						convallis ligula, non hendrerit nulla tortor nec odio.
+						Morbi non mattis nunc, elementum auctor arcu. Aliquam
+						vestibulum arcu non sem porta auctor. Nam vel congue
+						ligula, eu condimentum felis. Nunc aliquam hendrerit
+						odio sit amet venenatis. Nunc varius, libero a tempor
+						rutrum, nulla risus congue velit, nec suscipit nibh
+						lectus ac dolor. Nulla facilisi.
 					</p>
 				</div>
+				<!--.curso-informacion-->
 			</div>
-			<div class="course">
-				<div class="course__image">
-					<img src="img/curso2.jpg" alt="Course image" />
-				</div>
+			<!--.curso -->
 
-				<div class="course__information">
-					<h4 class="no-margin">Technicals of coffee extraction</h4>
-					<p class="course__label">
-						Price:
-						<span class="course__info">Free</span>
+			<div class="curso">
+				<div class="curso__imagen">
+					<img src="img/curso2.jpg" alt="Imagen del curso" />
+				</div>
+				<div class="curso__informacion">
+					<h4 class="no-margin">Taller para Tostar y Moler Granos</h4>
+					<p class="curso__label">
+						Precio:
+						<span class="curso__info">Gratis</span>
 					</p>
-					<p class="course__label">
-						Tickets:
-						<span class="course__info">20</span>
+					<p class="curso__label">
+						Cupo:
+						<span class="curso__info">20</span>
 					</p>
-					<p class="course__description">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Qui et mollitia minima! Optio nobis dicta, voluptatem
-						in, harum unde illo necessitatibus quam culpa maxime
-						nisi cum iste quibusdam quod error.
+					<p class="curso__descripcion">
+						Donec tempor, nisl et rhoncus viverra, turpis enim
+						convallis ligula, non hendrerit nulla tortor nec odio.
+						Morbi non mattis nunc, elementum auctor arcu. Aliquam
+						vestibulum arcu non sem porta auctor. Nam vel congue
+						ligula, eu condimentum felis. Nunc aliquam hendrerit
+						odio sit amet venenatis. Nunc varius, libero a tempor
+						rutrum, nulla risus congue velit, nec suscipit nibh
+						lectus ac dolor. Nulla facilisi.
 					</p>
 				</div>
+				<!--.curso-informacion-->
 			</div>
-			<div class="course">
-				<div class="course__image">
-					<img src="img/curso3.jpg" alt="Course image" />
-				</div>
+			<!--.curso -->
 
-				<div class="course__information">
-					<h4 class="no-margin">Technicals of coffee extraction</h4>
-					<p class="course__label">
-						Price:
-						<span class="course__info">Free</span>
+			<div class="curso">
+				<div class="curso__imagen">
+					<img src="img/curso3.jpg" alt="Imagen del curso" />
+				</div>
+				<div class="curso__informacion">
+					<h4 class="no-margin">
+						4 Recetas de Café para Principiantes
+					</h4>
+					<p class="curso__label">
+						Precio:
+						<span class="curso__info">Gratis</span>
 					</p>
-					<p class="course__label">
-						Tickets:
-						<span class="course__info">20</span>
+					<p class="curso__label">
+						Cupo:
+						<span class="curso__info">20</span>
 					</p>
-					<p class="course__description">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Qui et mollitia minima! Optio nobis dicta, voluptatem
-						in, harum unde illo necessitatibus quam culpa maxime
-						nisi cum iste quibusdam quod error.
+					<p class="curso__descripcion">
+						Donec tempor, nisl et rhoncus viverra, turpis enim
+						convallis ligula, non hendrerit nulla tortor nec odio.
+						Morbi non mattis nunc, elementum auctor arcu. Aliquam
+						vestibulum arcu non sem porta auctor. Nam vel congue
+						ligula, eu condimentum felis. Nunc aliquam hendrerit
+						odio sit amet venenatis. Nunc varius, libero a tempor
+						rutrum, nulla risus congue velit, nec suscipit nibh
+						lectus ac dolor. Nulla facilisi.
 					</p>
 				</div>
+				<!--.curso-informacion-->
 			</div>
+			<!--.curso -->
 		</main>
 
 		<footer class="footer">
-			<div class="container">
-				<div class="bar">
-					<a href="" class="logo">
-						<h1 class="logo__name no-margin text-center">
-							Coffee <span>Blog</span>
+			<div class="contenedor">
+				<div class="barra">
+					<a class="logo" href="index.html">
+						<h1 class="logo__nombre no-margin centrar-texto">
+							Blog<span class="logo__bold">DeCafé</span>
 						</h1>
 					</a>
 
-					<nav class="nav">
-						<a class="nav__link" href="aboutus.html">About us</a
-						><a class="nav__link" href="courses.html">Courses</a
-						><a class="nav__link" href="contact.html">Contact</a>
+					<nav class="navegacion">
+						<a href="nosotros.html" class="navegacion__enlace"
+							>Nosotros</a
+						>
+						<a href="cursos.html" class="navegacion__enlace"
+							>Cursos</a
+						>
+						<a href="contacto.html" class="navegacion__enlace"
+							>Contacto</a
+						>
 					</nav>
 				</div>
 			</div>
 		</footer>
+		<script src="js/modernizr.js"></script>
 	</body>
 </html>
